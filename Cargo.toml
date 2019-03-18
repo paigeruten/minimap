@@ -5,3 +5,4 @@ authors = ["Pailey Quilts <paileyq@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+image = "*"
