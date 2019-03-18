@@ -2,8 +2,15 @@
 name = "minimap"
 version = "0.1.0"
 authors = ["Pailey Quilts <paileyq@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Generates minimap images of source code files and diffs"
+readme = "README.md"
+homepage = "https://github.com/paileyq/minimap"
+repository = "https://github.com/paileyq/minimap"
+keywords = ["cli", "tool", "diff"]
+categories = ["command-line-utilities", "multimedia::images", "visualization"]
 edition = "2018"
 
 [dependencies]
-image = "*"
+image = "0.21.0"
 syntect = "3.2"
